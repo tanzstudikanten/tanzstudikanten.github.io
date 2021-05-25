@@ -28,7 +28,7 @@ nav {
 body {
   background-color: white;
   color: black;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: Georgia, serif;
   line-height: 30px;
   font-size: larger;
 }
@@ -38,7 +38,7 @@ header {
   text-align: center;
 }
 .desc {
-  margin: 3vw 5vw;
+  margin: 3vw 3vw;
   width: clamp(23ch, 80%, 250ch);
   display: flex;
   flex-direction: column;

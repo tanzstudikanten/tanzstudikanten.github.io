@@ -31,14 +31,16 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   line-height: 30px;
   font-size: larger;
+  flex-direction: column;
+  align-items: center;
 }
 header {
-  padding: 30px;
-  padding-top: 70px;
+  padding: 2vw;
+  padding-top: 7vw;
   text-align: center;
 }
 .desc {
-  margin: 3vw 3vw;
+  margin: 1vw 3vw;
   width: clamp(23ch, 80%, 250ch);
   display: flex;
   flex-direction: column;

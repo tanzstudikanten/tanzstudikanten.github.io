@@ -28,8 +28,7 @@ nav {
 body {
   background-color: white;
   color: black;
-  font-family: "Didot LT STD", "Times New Roman", "Hoefler Text", Garamond,
-    serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   line-height: 30px;
   font-size: larger;
 }

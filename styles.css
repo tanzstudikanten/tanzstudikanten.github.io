@@ -28,8 +28,9 @@ nav {
 body {
   background-color: white;
   color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman",
+    serif;
+  line-height: 30px;
   font-size: larger;
 }
 header {
@@ -38,7 +39,12 @@ header {
   text-align: center;
 }
 .desc {
-  margin: 80px 120px;
+  margin: 3vw 5vw;
+  width: clamp(23ch, 80%, 250ch);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 1.3rem;
 }
 .picture {
   width: 100%;
@@ -46,5 +52,6 @@ header {
 }
 footer {
   text-align: center;
-  margin: 60px;
+  margin: 4vw;
+  font-size: 0.9rem;
 }

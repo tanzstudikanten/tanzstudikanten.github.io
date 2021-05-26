@@ -48,6 +48,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  font-size: calc(1.3em + 0.3vw);
 }
 .picture {
   width: 100%;

@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: calc(1.3em + 0.3vw);
+}
 nav {
   background-color: rgba(242, 205, 55, 0.913);
   position: fixed;
@@ -33,7 +36,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: calc(1em + 0.5vw);
 }
 header {
   padding: 2vw;
@@ -42,7 +44,7 @@ header {
 }
 .desc {
   margin: 1vw 3vw;
-  width: clamp(23ch, 70%, 200ch);
+  width: clamp(50ch, 70%, 300ch);
   display: flex;
   flex-direction: column;
   padding: 1rem;

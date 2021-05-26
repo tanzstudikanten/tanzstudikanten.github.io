@@ -41,7 +41,7 @@ header {
 }
 .desc {
   margin: 1vw 3vw;
-  width: clamp(23ch, 70%, 300ch);
+  width: clamp(23ch, 70%, 200ch);
   display: flex;
   flex-direction: column;
   padding: 1rem;

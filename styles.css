@@ -29,7 +29,7 @@ body {
   background-color: white;
   color: black;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  line-height: 30px;
+  /* line-height: 30px; */
   font-size: larger;
   flex-direction: column;
   align-items: center;
